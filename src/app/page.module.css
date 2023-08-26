@@ -1,0 +1,23 @@
+.backgroundContainer {
+  background-image: url('/img/bg_page.jpg'); /* Ruta relativa a la carpeta 'public' */
+  background-size: cover;
+  /* Otros estilos que quieras aplicar al contenedor */
+  height: 340rem;
+}
+
+.buttonContTop {
+  position: absolute;
+  top: 91%;
+  right: 42%;
+}
+
+.buttonContBot {
+  position: absolute;
+  top: 328.795rem;
+  right: 37%;
+}
+
+.buttonContBot button {
+  width: 400px;
+  height: 107px;
+}
