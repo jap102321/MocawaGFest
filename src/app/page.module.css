@@ -1,23 +1,44 @@
 .backgroundContainer {
-  background-image: url('/img/bg_page.jpg'); /* Ruta relativa a la carpeta 'public' */
+  background-image: url('/img/resized.png'); /* Ruta relativa a la carpeta 'public' */
   background-size: cover;
+  background-repeat: no-repeat;
   /* Otros estilos que quieras aplicar al contenedor */
   height: 340rem;
+  margin: 0;
+  background-color: #cc4195;
+  scroll-behavior: smooth;
 }
 
-.buttonContTop {
+.goDownBtn {
+  position: sticky;
+  top: 80%;
+  border: none;
+  background: #000;
+  color: white;
+  border-radius: 4px;
+  padding: 1rem;
+  font-family: inherit;
+  margin-inline-start: 0.5rem;
+  cursor: pointer;
+}
+
+.goDownBtn a {
+  text-decoration: none;
+  color: white;
+}
+
+.main_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  top: 91%;
-  right: 42%;
+  width: 99%;
+  top: 764.4%;
+  box-sizing: border-box;
+  height: 150px;
 }
 
-.buttonContBot {
-  position: absolute;
-  top: 328.795rem;
-  right: 37%;
-}
-
-.buttonContBot button {
-  width: 400px;
-  height: 107px;
+.goDownBtn:hover {
+  scale: 1.05;
+  transition: 0.5s;
 }
