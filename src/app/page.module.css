@@ -33,7 +33,6 @@
   align-items: center;
   position: absolute;
   width: 99%;
-  top: 764.4%;
   box-sizing: border-box;
   height: 150px;
 }
@@ -46,13 +45,14 @@
 /* Media Queries */
 
 /* Estilos para pantallas mayores a 1900px */
+
 @media screen and (max-width: 1900px) {
   .backgroundContainer {
     height: 330rem;
   }
 
   .main_button {
-    top: 443%;
+    top: 700%;
   }
 }
 
@@ -83,7 +83,7 @@
   }
 
   .main_button {
-    top: 553%;
+    top: 736%;
   }
 }
 
@@ -190,6 +190,6 @@
   }
 
   .main_button {
-    top: 220%;
+    top: 205%;
   }
 }
