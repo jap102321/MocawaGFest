@@ -1,6 +1,6 @@
 .backgroundContainer {
   background-image: url('/img/resized.png'); /* Ruta relativa a la carpeta 'public' */
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   /* Otros estilos que quieras aplicar al contenedor */
   height: 340rem;
@@ -41,4 +41,155 @@
 .goDownBtn:hover {
   scale: 1.05;
   transition: 0.5s;
+}
+
+/* Media Queries */
+
+/* Estilos para pantallas mayores a 1900px */
+@media screen and (max-width: 1900px) {
+  .backgroundContainer {
+    height: 330rem;
+  }
+
+  .main_button {
+    top: 443%;
+  }
+}
+
+/* Estilos para pantallas mayores a 1800px */
+@media screen and (max-width: 1800px) {
+  .backgroundContainer {
+    height: 330rem;
+  }
+
+  .main_button {
+    top: 560%;
+  }
+}
+
+/* Estilos para pantallas mayores a 1700px */
+@media screen and (max-width: 1700px) {
+  .backgroundContainer {
+  }
+
+  .main_button {
+    top: 500%;
+  }
+}
+
+/* Estilos para pantallas mayores a 1600px */
+@media screen and (max-width: 1600px) {
+  .backgroundContainer {
+  }
+
+  .main_button {
+    top: 553%;
+  }
+}
+
+/* Estilos para pantallas mayores a 1400px */
+@media screen and (max-width: 1400px) {
+  .backgroundContainer {
+  }
+
+  .main_button {
+    top: 555%;
+  }
+}
+
+/* Estilos para pantallas mayores a 1300px */
+@media screen and (max-width: 1300px) {
+  .backgroundContainer {
+  }
+
+  .main_button {
+  }
+}
+
+/* Estilos para pantallas mayores a 1200px */
+@media screen and (max-width: 1200px) {
+  .backgroundContainer {
+  }
+
+  .main_button {
+    top: 605%;
+  }
+}
+
+/* Estilos para pantallas mayores a 1000px */
+@media screen and (max-width: 1024px) {
+  .backgroundContainer {
+    height: 250rem;
+  }
+
+  .main_button {
+    top: 450%;
+  }
+}
+
+/* Estilos para pantallas mayores a 900px */
+@media screen and (max-width: 900px) {
+  .backgroundContainer {
+  }
+
+  .main_button {
+  }
+}
+
+/* Estilos para pantallas mayores a 800px */
+@media screen and (max-width: 800px) {
+  .backgroundContainer {
+  }
+
+  .main_button {
+  }
+}
+
+/* Estilos para pantallas mayores a 700px */
+@media screen and (max-width: 768px) {
+  .backgroundContainer {
+  }
+
+  .main_button {
+  }
+}
+
+/* Estilos para pantallas mayores a 600px */
+@media screen and (max-width: 600px) {
+  .backgroundContainer {
+  }
+
+  .main_button {
+  }
+}
+
+/* Estilos para pantallas mayores a 500px */
+@media screen and (max-width: 500px) {
+  .backgroundContainer {
+  }
+
+  .main_button {
+  }
+}
+
+/* Estilos para pantallas mayores a 400px */
+@media screen and (max-width: 426px) {
+  .backgroundContainer {
+    height: 100rem;
+  }
+
+  .main_button {
+    top: 250%;
+  }
+}
+
+/* Estilos para pantallas mayores a 300px */
+@media screen and (max-width: 376px) {
+  .backgroundContainer {
+    height: 90rem;
+  }
+
+  .main_button {
+    top: 220%;
+  }
 }
