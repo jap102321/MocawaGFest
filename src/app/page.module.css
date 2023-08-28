@@ -189,6 +189,17 @@
     top: 405%;
   }
 }
+
+@media screen and (max-width: 412px) {
+  .backgroundContainer {
+    height: 90rem;
+  }
+
+  .main_button {
+    top: 355%;
+  }
+}
+
 @media (max-width: 394px) {
   .main_button {
     top: 328%;
@@ -200,14 +211,25 @@
   }
 }
 
+@media (max-width: 385px) {
+  .main_button {
+    top: 427%;
+  }
+}
+
 @media (max-width: 376px) {
   .main_button {
     top: 327%;
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 361px) {
   .main_button {
-    top: 347%;
+    top: 397%;
+  }
+}
+@media (max-width: 276px) {
+  .main_button {
+    top: 327%;
   }
 }
