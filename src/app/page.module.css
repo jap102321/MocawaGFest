@@ -1,5 +1,5 @@
 .backgroundContainer {
-  background-image: url('/img/resized.png'); /* Ruta relativa a la carpeta 'public' */
+  background-image: url('/img/web_corr.png'); /* Ruta relativa a la carpeta 'public' */
   background-size: contain;
   background-repeat: no-repeat;
   /* Otros estilos que quieras aplicar al contenedor */
@@ -83,7 +83,7 @@
   }
 
   .main_button {
-    top: 736%;
+    top: 726%;
   }
 }
 
@@ -190,6 +190,6 @@
   }
 
   .main_button {
-    top: 205%;
+    top: 195%;
   }
 }
