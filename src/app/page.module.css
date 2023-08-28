@@ -88,7 +88,7 @@
 }
 
 /* Estilos para pantallas mayores a 1400px */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1440px) {
   .backgroundContainer {
   }
 
@@ -114,9 +114,6 @@
   .main_button {
     top: 605%;
   }
-}
-
-@media screen and (max-width: ) {
 }
 
 /* Estilos para pantallas mayores a 1000px */
@@ -155,9 +152,11 @@
 /* Estilos para pantallas mayores a 700px */
 @media screen and (max-width: 768px) {
   .backgroundContainer {
+    height: 160rem;
   }
 
   .main_button {
+    top: 255%;
   }
 }
 
