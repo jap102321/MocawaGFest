@@ -150,14 +150,23 @@
 }
 
 /* Estilos para pantallas mayores a 700px */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .backgroundContainer {
     background-size: cover;
     background-image: url('/img/webcelular.png'); /* Ruta relativa a la carpeta 'public' */
   }
 
   .main_button {
-    top: 533%;
+    top: 532%;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .backgroundContainer {
+  }
+
+  .main_button {
+    top: 327%;
   }
 }
 
@@ -171,19 +180,34 @@
   }
 }
 
-/* Estilos para pantallas mayores a 300px */
 @media screen and (max-width: 415px) {
   .backgroundContainer {
     height: 90rem;
   }
 
   .main_button {
-    top: 401%;
+    top: 405%;
+  }
+}
+@media (max-width: 394px) {
+  .main_button {
+    top: 328%;
+  }
+}
+@media (max-width: 391px) {
+  .main_button {
+    top: 328%;
   }
 }
 
 @media (max-width: 376px) {
   .main_button {
     top: 327%;
+  }
+}
+
+@media (max-width: 360px) {
+  .main_button {
+    top: 347%;
   }
 }
