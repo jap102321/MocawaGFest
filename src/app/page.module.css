@@ -131,7 +131,7 @@
 }
 
 /* Estilos para pantallas mayores a 900px */
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 947px) {
   .backgroundContainer {
     height: 206rem;
   }
