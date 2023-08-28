@@ -18,3 +18,13 @@
   scale: 1.05;
   transition: 0.5s;
 }
+
+@media (max-width: 768px) {
+  .button {
+    width: 200px;
+  }
+
+  .button a {
+    font-size: 12px;
+  }
+}
