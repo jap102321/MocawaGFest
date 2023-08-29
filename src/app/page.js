@@ -7,9 +7,6 @@ export default function Home() {
   return (
     <>
       <Component />
-      <div className={styles.secondButton}>
-        <Button />
-      </div>
     </>
   );
 }
