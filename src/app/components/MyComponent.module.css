@@ -29,12 +29,7 @@
   padding-block: 1rem;
   bottom: 0;
 }
-.secondButton {
-  text-align: center;
-  padding: -15px;
-  flex-shrink: 0;
-  margin-top: auto;
-}
+
 .goDownBtn {
   position: sticky;
   top: 80%;

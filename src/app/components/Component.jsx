@@ -21,9 +21,6 @@ const Component = ({ alternate }) => {
           />
         </button>
       </div>
-      <div className={styles.secondButton}>
-        <Button />
-      </div>
     </div>
   );
 };
