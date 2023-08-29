@@ -29,16 +29,37 @@
   padding-block: 1rem;
   bottom: 0;
 }
-
+.secondButton {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  text-align: center;
+  padding-block: 1rem;
+  bottom: 0;
+  right: 15px;
+}
 .goDownBtn {
   position: sticky;
   top: 80%;
   border: none;
   background: transparent;
-  border: 1px solid black;
+  border: 1px solid white;
   color: white;
   border-radius: 4px;
   padding: 1rem;
+  font-family: inherit;
+  margin-inline-start: 0.5rem;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+.goDownBtnTwo {
+  position: sticky;
+  top: 80%;
+  border: none;
+  background: transparent;
+  color: white;
+  border-radius: 4px;
   font-family: inherit;
   margin-inline-start: 0.5rem;
   cursor: pointer;
@@ -49,5 +70,17 @@
   .header {
     background-image: url('/img/webcelular.png');
     font-size: 1.5rem;
+  }
+
+  .goDownBtn {
+    padding: 1rem;
+  }
+  .goDownBtnTwo {
+    padding: 0;
+  }
+
+  .goDownBtnTwo img {
+    height: 65px;
+    width: 65px;
   }
 }

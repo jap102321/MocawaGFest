@@ -15,10 +15,15 @@ const Component = ({ alternate }) => {
         <button className={styles.goDownBtn}>
           <Image
             src='/img/whatsapp-icon.svg'
-            width={24}
-            height={24}
-            alt='wsp-logo'
+            width={32}
+            height={32}
+            alt='Logo whatsapp'
           />
+        </button>
+      </div>
+      <div className={styles.secondButton}>
+        <button className={styles.goDownBtnTwo}>
+          <Image src='/img/logo2.svg' width={97} height={100} alt='more info' />
         </button>
       </div>
     </div>
