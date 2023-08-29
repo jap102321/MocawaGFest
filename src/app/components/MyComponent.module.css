@@ -43,13 +43,10 @@
   top: 80%;
   border: none;
   background: transparent;
-  border: 1px solid white;
   color: white;
   border-radius: 4px;
-  padding: 1rem;
   font-family: inherit;
   margin-inline-start: 0.5rem;
-  padding: 2rem;
   cursor: pointer;
 }
 
@@ -74,6 +71,11 @@
 
   .goDownBtn {
     padding: 1rem;
+  }
+
+  .goDownBtn img {
+    height: 65px;
+    width: 65px;
   }
   .goDownBtnTwo {
     padding: 0;

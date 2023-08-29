@@ -12,19 +12,28 @@ const Component = ({ alternate }) => {
   return (
     <div className={styles.container}>
       <div className={styles.buttonContainer}>
-        <button className={styles.goDownBtn}>
-          <Image
-            src='/img/whatsapp-icon.svg'
-            width={32}
-            height={32}
-            alt='Logo whatsapp'
-          />
-        </button>
+        <a href='https://api.whatsapp.com/send/?phone=573136449825&text&type=phone_number&app_absent=0'>
+          <button className={styles.goDownBtn}>
+            <Image
+              src='/img/whatsapp-icon.svg'
+              width={97}
+              height={100}
+              alt='Logo whatsapp'
+            />
+          </button>
+        </a>
       </div>
       <div className={styles.secondButton}>
-        <button className={styles.goDownBtnTwo}>
-          <Image src='/img/logo2.svg' width={97} height={100} alt='more info' />
-        </button>
+        <a href='#'>
+          <button className={styles.goDownBtnTwo}>
+            <Image
+              src='/img/logo2.svg'
+              width={97}
+              height={100}
+              alt='more info'
+            />
+          </button>
+        </a>
       </div>
     </div>
   );
