@@ -42,6 +42,11 @@
   transition: 0.5s;
 }
 
+.secondButton {
+  position: sticky;
+  text-align: center;
+}
+
 /* Media Queries */
 
 /* Estilos para pantallas mayores a 1900px */

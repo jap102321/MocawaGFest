@@ -1,0 +1,58 @@
+/* Estilos base para el componente */
+.container {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-image: url('/img/web.png'); /* Cambia 'ruta-de-la-imagen.jpg' por la ruta de tu imagen de fondo */
+  background-size: cover;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* Estilos para el primer estado con un fondo diferente */
+
+/* Estilos para el contenedor del botón */
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  text-align: center;
+  padding-block: 1rem;
+  bottom: 0;
+}
+.secondButton {
+  text-align: center;
+  padding: -15px;
+  flex-shrink: 0;
+  margin-top: auto;
+}
+.goDownBtn {
+  position: sticky;
+  top: 80%;
+  border: none;
+  background: transparent;
+  border: 1px solid black;
+  color: white;
+  border-radius: 4px;
+  padding: 1rem;
+  font-family: inherit;
+  margin-inline-start: 0.5rem;
+  cursor: pointer;
+}
+
+/* Estilos adicionales para hacerlo responsive */
+@media (max-width: 768px) {
+  .header {
+    background-image: url('/img/webcelular.png');
+    font-size: 1.5rem;
+  }
+}
