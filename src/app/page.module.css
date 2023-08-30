@@ -56,6 +56,12 @@
 
 /* Estilos para pantallas mayores a 1900px */
 
+@media (max-width: 1921px) {
+  .backgroundContainer {
+    height: 572rem;
+  }
+}
+
 @media (max-width: 1366px) {
   .backgroundContainer {
     height: 265rem;
