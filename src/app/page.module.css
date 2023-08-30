@@ -1,9 +1,9 @@
 .backgroundContainer {
-  background-image: url('/img/web_corr.png'); /* Ruta relativa a la carpeta 'public' */
-  background-size: contain;
+  background-image: url('/img/web_pc.png'); /* Ruta relativa a la carpeta 'public' */
+  background-size: 100%;
   background-repeat: no-repeat;
   /* Otros estilos que quieras aplicar al contenedor */
-  height: 323rem;
+  height: 441rem;
   margin: 0;
   background-color: #cc4195;
   scroll-behavior: smooth;
@@ -63,9 +63,22 @@
   }
 }
 
+@media (max-width: 1025px) {
+  .backgroundContainer {
+    height: 305rem;
+    background-size: 100%;
+  }
+}
+
+@media (max-width: 913px) {
+  .backgroundContainer {
+    height: 271.8rem;
+  }
+}
+
 @media (max-width: 821px) {
   .backgroundContainer {
-    height: 175rem;
+    height: 244.3rem;
   }
 }
 
@@ -73,13 +86,14 @@
 @media screen and (max-width: 769px) {
   .backgroundContainer {
     background-size: 100%;
-    height: 340rem;
+    height: 365.5rem;
     background-image: url('/img/webcelular.png'); /* Ruta relativa a la carpeta 'public' */
   }
 }
 
-@media screen and (max-width: 431px) {
+@media screen and (max-width: 541px) {
   .backgroundContainer {
+    height: 256.5rem;
   }
 }
 
@@ -87,29 +101,42 @@
 
 @media (max-width: 415px) {
   .backgroundContainer {
-    height: 185rem;
+    height: 196.5rem;
   }
 }
 
 @media screen and (max-width: 413px) {
   .backgroundContainer {
-    height: 183rem;
+    height: 195.7rem;
   }
 }
 
 @media (max-width: 394px) {
   .backgroundContainer {
-    height: 175rem;
+    height: 187.4rem;
   }
 }
+
 @media (max-width: 391px) {
   .backgroundContainer {
-    height: 175rem;
+    height: 185.3rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .backgroundContainer {
+    height: 178.3rem;
   }
 }
 
 @media (max-width: 361px) {
   .backgroundContainer {
-    height: 160rem;
+    height: 171rem;
+  }
+}
+
+@media (max-width: 280px) {
+  .backgroundContainer {
+    height: 133rem;
   }
 }
