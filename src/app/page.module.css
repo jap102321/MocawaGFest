@@ -3,7 +3,7 @@
   background-size: 100%;
   background-repeat: no-repeat;
   /* Otros estilos que quieras aplicar al contenedor */
-  height: 441rem;
+  height: 430rem;
   margin: 0;
   background-color: #cc4195;
   scroll-behavior: smooth;
@@ -59,6 +59,12 @@
 @media (max-width: 1921px) {
   .backgroundContainer {
     height: 572rem;
+  }
+}
+
+@media (max-width: 1800px) {
+  .backgroundContainer {
+    height: 440rem;
   }
 }
 
