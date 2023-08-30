@@ -68,9 +68,9 @@
   }
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1367px) {
   .backgroundContainer {
-    height: 265rem;
+    height: 401rem;
     background-size: 100%;
   }
 }
