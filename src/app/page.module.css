@@ -1,5 +1,5 @@
 .backgroundContainer {
-  background-image: url('/img/web_pc.png'); /* Ruta relativa a la carpeta 'public' */
+  background-image: url('/img/web_PC.png'); /* Ruta relativa a la carpeta 'public' */
   background-size: 100%;
   background-repeat: no-repeat;
   /* Otros estilos que quieras aplicar al contenedor */
