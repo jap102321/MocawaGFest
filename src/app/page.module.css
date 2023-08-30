@@ -27,6 +27,11 @@
   color: white;
 }
 
+.backgroundContainer button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
 .main_button {
   display: flex;
   justify-content: center;
@@ -50,6 +55,13 @@
 /* Media Queries */
 
 /* Estilos para pantallas mayores a 1900px */
+
+@media (max-width: 1366px) {
+  .backgroundContainer {
+    height: 265rem;
+    background-size: 100%;
+  }
+}
 
 @media (max-width: 821px) {
   .backgroundContainer {
