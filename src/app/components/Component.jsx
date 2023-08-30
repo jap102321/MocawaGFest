@@ -24,7 +24,7 @@ const Component = ({ alternate }) => {
         </a>
       </div>
       <div className={styles.secondButton}>
-        <a href='#'>
+        <a href='https://www.instagram.com/hotelmocawaresort/'>
           <button className={styles.goDownBtnTwo}>
             <Image
               src='/img/logo2.svg'
